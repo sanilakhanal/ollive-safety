@@ -1,0 +1,164 @@
+
+@media (max-width: 768px) {
+body {
+	overflow-x: hidden
+}
+.in-contain-wrap{
+	padding:15px 0;
+	border:none
+}
+.modal-dialog{
+	margin-top:30px;
+}
+section{
+	padding:20px 0;
+}
+.media-body{
+	width:auto
+}
+.header-top {
+}
+.logo{
+	display:inline-block
+}
+.top_nav li {
+	padding-right: 0;
+	border: none
+}
+.logo img{
+	width:100px;
+}
+#mainMenu{
+	float:inherit;
+	text-align:left
+}
+.navbar-toggle {
+	background: #008131;
+	margin:18px 0 0;
+	border-radius:0;
+}
+.navbar-toggle .icon-bar{
+	background:#fff
+}
+.navbar-inverse {
+	border: none;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-collapse {
+	margin: 0 !important
+}
+.navbar-nav {
+	float: left;
+	width: 100%;
+	margin:0;
+}
+.nav > li {
+	padding-left: 0
+}
+.navbar-nav > li > a {
+	border: none;
+	background: none;
+}
+.navbar-inverse .navbar-nav > li > a{
+	line-height:20px;
+	font-size:15px;
+	padding:5px 0;
+}
+.dropdown-menu {
+	margin-left: 0;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a{
+	padding-left:0;
+}
+.dropdown-menu > li > a{
+	border-bottom:1px dashed #e5e5e5
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:active{
+	color:#333 !important
+}
+.inner-banner h1 {
+    font-size:1.4em;
+}
+.inner-banner ul li{
+	font-size:.9em
+}
+.carousel-fade .carousel-inner .item {
+	height: 150px;
+}
+.carousel-caption h3{
+font-size: .9em;
+padding: 0;
+margin: 10px 0 0;
+}
+.carousel-caption p{
+	padding:0;
+	font-size:.8em
+}
+#about::before{
+	border-bottom-color: #fff;
+}
+.content-box, .content-box2{
+	margin-bottom:1.5rem
+}
+.content-box2::before {
+    border-color: #ccc #ddd #ddd #ccc;
+}
+
+.services{
+	position:inherit;
+	width:auto
+}
+.service-list li{
+	font-size:1em;
+	height:80px;
+}
+.service-list li a{
+	padding:10px
+}
+.service-list li i{
+	font-size:2em
+}
+#about{
+	background:#ddd;
+}
+.padding-left0 {
+	padding-left: 15px;
+}
+.padding-right0 {
+	padding-right: 15px;
+}
+.testi-text{
+	width:auto
+}
+.testi-text p{
+	font-size:.9em
+}
+.seprater{
+	margin-bottom:30px;
+}
+footer {
+}
+.marginTop40{
+	margin-top:0;
+}
+.top_margin25{
+	margin-top:15px;
+}
+footer .main-title2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.contact-widget i{
+    font-size: 2.4em;
+    margin-top: 5px;
+}
+.contact-widget{
+	margin-bottom:8px;
+}
+}
+@media (min-width: 361px) and @media (max-width: 768px){
+	.carousel-fade .carousel-inner .item{
+		height:300px;
+	}
+}
